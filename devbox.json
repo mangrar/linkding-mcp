@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.17.2/.schema/devbox.schema.json",
+  "packages": [
+    "python@3.12",
+    "uv@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "if [ ! -d .venv ]; then uv venv .venv; fi",
+      ". .venv/bin/activate",
+      "uv pip install -q -r requirements.txt"
+    ],
+    "scripts": {
+      "start": "python server.py",
+      "start:sse": "python server.py --transport sse --port 8000"
+    }
+  }
+}

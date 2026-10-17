@@ -1,0 +1,18 @@
+services:
+  linkding-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: linkding-mcp
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - LINKDING_URL=${LINKDING_URL:-http://localhost:9090}
+      - LINKDING_API_TOKEN=${LINKDING_API_TOKEN}
+      - MCP_TRANSPORT=sse
+      - MCP_HOST=0.0.0.0
+      - MCP_PORT=8000
+    env_file:
+      - path: .env
+        required: false
