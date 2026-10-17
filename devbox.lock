@@ -7,7 +7,7 @@
     },
     "python@3.12": {
       "last_modified": "2026-10-02T22:55:44Z",
-      "plugin_version": "0.0.4",
+      "plugin_version": "0.0.5",
       "resolved": "github:NixOS/nixpkgs/55ba7f49ef2962b42cbd126522b7df5f95037679#python312",
       "source": "devbox-search",
       "version": "3.12.15",

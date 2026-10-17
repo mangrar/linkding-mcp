@@ -17,11 +17,11 @@ COPY server.py .
 # Environment defaults
 ENV PYTHONUNBUFFERED=1 \
     LINKDING_URL="http://localhost:9090" \
-    MCP_TRANSPORT="sse" \
+    MCP_TRANSPORT="streamable-http" \
     MCP_HOST="0.0.0.0" \
     MCP_PORT="8000"
 
 EXPOSE 8000
 
-# Default entrypoint for SSE HTTP service (suitable for NAS / Docker deployment)
-CMD ["python", "server.py", "--transport", "sse", "--host", "0.0.0.0", "--port", "8000"]
+# Default entrypoint for HTTP microservice (reads MCP_TRANSPORT: streamable-http or sse)
+CMD ["python", "server.py"]

@@ -56,7 +56,7 @@ def get_linkding_config() -> tuple[str, str]:
     if not api_token:
         raise ValueError(
             "LINKDING_API_TOKEN is missing. Please configure LINKDING_API_TOKEN "
-            "with your Linkding REST API token (Settings > Integraciones > API in Linkding)."
+            "with your Linkding REST API token (Settings > Integrations > API in Linkding)."
         )
 
     return base_url, api_token
