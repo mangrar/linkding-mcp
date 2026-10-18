@@ -4,6 +4,8 @@ A high-performance, decoupled **Model Context Protocol (MCP)** server designed t
 
 Allows any MCP-compatible AI client (such as Google Antigravity, Claude Desktop, Cursor, etc.) to perform the complete CRUD lifecycle for bookmarks and inspect tags natively using tool calling.
 
+<a href="https://buymeacoffee.com/mangrar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="42"></a>
+
 ---
 
 ## 🚀 Features
