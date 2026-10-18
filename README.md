@@ -4,6 +4,8 @@ Servidor desacoplado de alto rendimiento basado en el protocolo **Model Context 
 
 Permite a cualquier cliente de IA compatible (Google Antigravity, Claude Desktop, Cursor, etc.) realizar el ciclo CRUD completo de marcadores y consulta de etiquetas de forma nativa mediante llamadas a herramientas (Tool Calling).
 
+<a href="https://buymeacoffee.com/mangrar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="42"></a>
+
 ---
 
 ## 🚀 Características
